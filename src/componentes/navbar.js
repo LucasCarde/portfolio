@@ -1,14 +1,17 @@
 import React from "react";
 import SentimentSatisfiedAltRoundedIcon from '@mui/icons-material/SentimentSatisfiedAltRounded';
+import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg" id="nav">
             <div className="container-fluid" id="divNav">
-                <a className="navbar-brand" href="#" id="marca">Carde</a>
+                <Link to="/" className="links">
+                    <a className="navbar-brand" id="marca">Carde</a>
+                </Link>
                 <button
                     className="navbar-toggler"
-                    data-bs-theme = "dark"
+                    data-bs-theme="dark"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown"
@@ -21,13 +24,19 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#" id="navItem">Inicio</a>
+                            <Link to="/" className="links">
+                                <a className="nav-link active" aria-current="page" id="navItem">Inicio</a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#" id="navItem">Sobre mi</a>
+                            <Link to="/sobremi" className="links">
+                                <a className="nav-link" id="navItem">Sobre mi</a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#" id="navItem">Otros</a>
+                            <Link to="/otros" className="links">
+                                <a className="nav-link" id="navItem">Otros</a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
