@@ -1,4 +1,7 @@
-html, body {
+/* generales */
+
+body,
+html {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -18,6 +21,8 @@ body::-webkit-scrollbar {
     min-width: 100%;
 }
 
+/* titulo */
+
 .inicio {
     background-color: transparent;
 
@@ -28,15 +33,27 @@ body::-webkit-scrollbar {
     font-family: 'Amatic SC', sans-serif;
 }
 
+/* barrita nav */
+
 #nav {
     position: absolute;
-    left: 5%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    left: 0;
     top: 0;
+    padding: auto 5%;
+    align-items: center;
 }
 
-#separadorNav{
-    justify-content: space-between
+#divNav {
+    width: 90%;
+}
 
+#marca {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Amatic SC', sans-serif;
 }
 
 #navItem {
@@ -45,8 +62,5 @@ body::-webkit-scrollbar {
     font-family: 'Amatic SC', sans-serif;
 }
 
-#marca {
-    color: white;
-    font-size: 1.5rem;
-    font-family: 'Amatic SC', sans-serif;
-}
+#burgerMenu{
+color-interpolation-filters: white;}
