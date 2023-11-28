@@ -52,15 +52,16 @@ body::-webkit-scrollbar {
 
 #marca {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Amatic SC', sans-serif;
 }
 
 #navItem {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: 'Amatic SC', sans-serif;
 }
+
 
 #burgerMenu{
 color-interpolation-filters: white;}
