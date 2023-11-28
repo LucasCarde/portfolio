@@ -8,6 +8,7 @@ function Navbar() {
                 <a className="navbar-brand" href="#" id="marca">Carde</a>
                 <button
                     className="navbar-toggler"
+                    data-bs-theme = "dark"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown"
