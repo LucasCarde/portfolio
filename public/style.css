@@ -1,5 +1,7 @@
-body {
-    height: 643px !important;
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 
 }
 body::-webkit-scrollbar {
