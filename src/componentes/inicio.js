@@ -4,7 +4,7 @@ import Typewriter from "./efectoTyping";
 function Inicio() {
     return (
         <div className="inicio">
-        <Typewriter className= "nombreInicio" text= "Luucas Cardenau."/>
+        <Typewriter className= "nombreInicio" text= "L.ucas Cardenau."/>
         </div>
     )
 }
