@@ -45,7 +45,7 @@ body::-webkit-scrollbar {
     flex-direction: row;
     width: 100%;
     left: 0;
-    top: 0;
+    top: 1%;
     padding: auto 5%;
     align-items: center;
 }
