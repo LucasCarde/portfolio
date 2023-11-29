@@ -66,6 +66,6 @@ body::-webkit-scrollbar {
     font-family: 'Amatic SC', sans-serif;
 }
 
-
-#burgerMenu{
-color-interpolation-filters: white;}
+#navbarNavDropdown{
+    justify-content: right;
+}

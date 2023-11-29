@@ -1,6 +1,7 @@
-import React from "react";
+import React, {useState} from "react";
 import SentimentSatisfiedAltRoundedIcon from '@mui/icons-material/SentimentSatisfiedAltRounded';
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+
 
 function Navbar() {
     return (
@@ -16,10 +17,10 @@ function Navbar() {
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown"
-                    aria-expanded="false"
+                    aria-expanded= "false"
                     aria-label="Toggle navigation"
                     id="burgerMenu">
-                    <span className="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon" id="imagenBurger"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
