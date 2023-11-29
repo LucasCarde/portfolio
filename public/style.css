@@ -1,3 +1,10 @@
+/* font-family: 'Amatic SC', sans-serif;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive; */
+
 /* generales */
 
 body,
@@ -29,8 +36,8 @@ body::-webkit-scrollbar {
 }
 
 .nombreInicio {
-    font-size: 5rem;
-    font-family: 'Amatic SC', sans-serif;
+    font-size: 3.3rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* barrita nav */
@@ -54,17 +61,27 @@ body::-webkit-scrollbar {
     width: 90%;
 }
 
-#marca {
+#Carde {
     color: white;
     font-size: 2rem;
-    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-#navItem {
+#Carde:hover {
+    color: rgba(137, 207, 230, 0.736);
+}
+
+#Inicio, #Otros, #link2 {
     color: white;
     font-size: 1.3rem;
-    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
 }
+
+#Inicio:hover, #Otros:hover, #link2:hover {
+    color: rgba(137, 207, 230, 0.736);
+}
+
 
 #navbarNavDropdown{
     justify-content: right;

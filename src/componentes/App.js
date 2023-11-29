@@ -8,7 +8,12 @@ function App() {
     return (
         <div>
             <Router>
-                <Navbar/>
+                <Navbar
+                  marca = "Carde"
+                  link1 = "Inicio"
+                  link2 = "Sobre mi"
+                  link3 = "Otros"
+                />
                 <Routes>
                     <Route path='/' element={<Inicio/>}/>
                     <Route path='/singin' element={<SignIn/>}/>

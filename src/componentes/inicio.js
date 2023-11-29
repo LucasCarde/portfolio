@@ -1,11 +1,16 @@
 import React from "react";
-import Typewriter from "./efectoTyping";
+import Typewriter from "./efectos/efectoTyping";
 
 function Inicio() {
     return (
         <div className="inicio">
-        <Typewriter className= "nombreInicio" text= "L.ucas Cardenau."/> 
+            <div className="tituloInicio">
+                <p>
+                    <Typewriter className="nombreInicio" text={"L.ucas Cardenau."}/>
+                </p>
+            </div>
         </div>
+
     )
 }
 
